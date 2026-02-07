@@ -106,18 +106,8 @@ revealOnScroll(); // Initial check on page load
 
 const downloadResumeBtn = document.getElementById('download-resume');
 
-downloadResumeBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    
-    // Placeholder alert - Replace with actual resume file path
-    alert('Please replace this with your actual resume PDF file!\n\nInstructions:\n1. Save your resume as "resume.pdf"\n2. Place it in the same folder as index.html\n3. Update the href in the HTML to: href="resume.pdf"');
-    
-    // Once you have your resume PDF, uncomment the following lines and remove the alert above:
-    // const link = document.createElement('a');
-    // link.href = 'resume.pdf'; // Make sure you have resume.pdf in your project folder
-    // link.download = 'Abhishek_Kumar_Resume.pdf';
-    // link.click();
-});
+// Resume download works automatically via HTML
+console.log('Resume feature ready!');
 
 // ========================================
 // Project Cards Hover Effect Enhancement
